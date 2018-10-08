@@ -466,8 +466,8 @@ a:focus, a:hover {
 }
 .agile_map_grid {
     position: absolute;
-    top: 20%;
-    left: 52%;
+    top: 32%;
+    left: 53%;
     width: 30%;
     background: #fff;
 }
@@ -715,8 +715,9 @@ a:focus, a:hover {
     text-transform: uppercase;
     text-align: center;
 	font-size:30px;
-	color:#000;
+	color:#E91E63;
 	margin-bottom:2em;
+	font-weight: bold;
 }
 .contact-w3ls,.services,.demo,.gallery,.customer .agileinfo-dot,.ourchefs{
 	padding:4em 0;
@@ -1072,20 +1073,13 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     text-transform: uppercase;
     font-size: 22px;
     margin-left: 60px;
-    margin-top: 5px;
+    margin-top: 50px;
     color: #E91E63;
-    font-weight: 600;
+	font-weight: 600;
+	text-align: center;
 }
 
-h3.title.ab {
-    margin-left: 300px;
-}
-h3.title.ab1 {
-    margin-left: 545px;
-}
-h3.title.ab2 {
-    margin-left: 800px;
-}
+
 .ser-img h3,.about-2 h3 {
     font-size: 21px;
     color: #000000;
@@ -1130,7 +1124,7 @@ h3.title.ab2 {
     background: transparent;
 }
 .resp-tabs-list li {
-	margin: 0px 90px;
+	margin: 0px 95px;
 }
 .resp-tab-active {
     border: none;
@@ -1643,7 +1637,7 @@ textarea{
 }
 @media screen and (max-width: 1280px){
 	.agileits-banner-info h3 {
-		font-size: 3.5em;
+		font-size: 5em;
 	}
 	.agileits-banner-info {
 		padding: 12em 0;
@@ -1687,20 +1681,10 @@ textarea{
 		padding: 10em 0;
 	}
 	.resp-tabs-list li {
-		margin: 0px 100px;
+		margin: 0px 73px;
 	}
-	.demo h3.title {
-		margin-left: 40px;
-	}
-	h3.title.ab {
-		margin-left: 240px;
-	}
-	h3.title.ab1 {
-		margin-left: 444px;
-	}
-	h3.title.ab2 {
-		margin-left: 650px;
-	}
+	
+
 	.last-grid1 h3 {
 		padding: 27px 10px;
 	}
@@ -1764,20 +1748,10 @@ textarea{
 }
 @media screen and (max-width: 991px){
 	.resp-tabs-list li {
-		margin: 0px 75px;
+		margin: 0px 46px;
 	}
-	.demo h3.title {
-		margin-left: 20px;
-	}
-	h3.title.ab {
-		margin-left: 170px;
-	}
-	h3.title.ab1 {
-		margin-left: 320px;
-	}
-	h3.title.ab2 {
-		margin-left: 470px;
-	}
+	
+	
 	.menugrid {
 		width: 50%;
 		float: left;
@@ -2327,5 +2301,34 @@ textarea{
 @media screen and (max-width: 1440px){
 	
 }
+
+@media screen and (max-width: 700px){
+	.modal-dialog {
+		width: 480px;
+		
+	}
+}
+
+@media screen and (max-width: 550px){
+	.modal-dialog {
+		width: 380px;
+		
+	}
+}
+
+@media screen and (max-width: 450px){
+	.modal-dialog {
+		width: 300px;
+		
+	}
+}
+
+@media screen and (max-width: 350px){
+	.modal-dialog {
+		width: 250px;
+		
+	}
+}
+
 
 /* responsive design */
